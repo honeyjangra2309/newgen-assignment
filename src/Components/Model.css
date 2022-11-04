@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.best_modal {
+    width: 100vw;
+    text-align: center;
+    font-family: "Poppins";
+    margin-top: 5rem;
+}

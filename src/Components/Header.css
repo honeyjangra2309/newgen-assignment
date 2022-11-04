@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.Header_div {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-family: "Poppins";
+    border-bottom: 1px solid black;
+}
+.Header_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.link {
+  margin: 1rem;
+  text-decoration: none;
+  color: #707070;
+}
+.Header_right span {
+    margin: 1rem;
+    cursor: pointer;
+}
+.Header_right span:nth-child(1) {
+  color: #1492E6;
+}
+.download {
+    background-color: #1492E6;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active {
+    border-bottom: 1px solid #1492E6;
+    color: #1492E6;
+}
